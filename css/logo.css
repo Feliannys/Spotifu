@@ -1,0 +1,10 @@
+/* Si un elemento tiene padding-inline-start, normalmente tendra un padding-inline-end, no se notara pero se podra evitar algun bug */
+.logo{
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+}
+
+.logo-image{
+    inline-size: 7rem;
+    block-size: 2rem;
+}

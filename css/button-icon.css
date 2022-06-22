@@ -1,0 +1,39 @@
+.buttonIcon{
+    inline-size: 2.5rem;
+    block-size: 2.5rem;
+    background: transparent;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: var(--gray10);
+}
+
+/* El boton queda con color base, luego se hacen dos estados con los difrentes colores que se le iran aplicando segun el caso. (El .is es un estado)*/
+
+.buttonIcon.is-white {
+    background: var(--white);
+    color: var(--gray50);
+}
+
+.buttonIcon.is-primary {
+    background: var(--primary);
+    color: var(--white);
+}
+
+/* El boton de play es el unico que no es centrado, en cualquier lado, asi que se mueve un poco para que este bien */
+
+.buttonIcon .icon-play{
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+/* Al darle click se hace un poquito mas pequeño. Con el scale va de 1 hacia abajo */
+.buttonIcon:active{
+    transform: scale(.95);
+}
+
+ /* box-shadow: x y blur spread color */
+.buttonIcon:hover:is([class*='is-']){
+    box-shadow: 0 8px 8px rgba(0, 0, 0, .3);
+}
