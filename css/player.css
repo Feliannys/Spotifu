@@ -1,0 +1,34 @@
+@import '../css/slider.css';
+@import '../css/player-controls.css';
+@import '../css/player-playback.css';
+@import '../css/player-volumen.css';
+@import '../css/now-playnig.css';
+
+
+.player{
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+    /* explicacion: inset: sombra hacia dentro, eje x, eje y, cuanto de va a expandir, color */
+    box-shadow: inset 0 1px 0 var(--gray30);
+}
+
+/* Todos los hijos directos de player */
+.player > * {
+    flex: 1;
+}
+
+.player-control{
+    border: none;
+    padding: 0;
+    background: none;
+    color: var(--gray10);
+    font-size: 1.25rem;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.player-playerVolumen{
+    display: flex;
+    justify-content: end;
+}

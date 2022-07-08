@@ -5,6 +5,11 @@
 @import '../css/button-icon.css';
 @import '../css/sidebar.css';
 @import '../css/ellipsis.css';
+@import '../css/player.css';
+@import '../css/playlist-a.css';
+@import '../css/playlist-b.css';
+
+
 
 
 :root { 
@@ -22,6 +27,6 @@
   --baseFont: normal 0.875rem/1.375rem var(--basefontFamily); 
   --baseFontBold: bold 0.875rem/1.375rem var(--basefontFamily); 
   --button: bold 0.875rem/1rem var(--basefontFamily); 
-  --smallFont: normal 0,75em/normal var(--basefontFamily); 
+  --smallFont: normal 0.75rem/normal var(--basefontFamily); 
 }
 

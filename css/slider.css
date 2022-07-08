@@ -1,0 +1,44 @@
+.slider{
+    /* inline-size: 200px; */
+    background: rgba(255, 255, 255, .2);
+    block-size: .25rem;
+    border-radius: .25rem;
+}
+
+.slider-progress{
+    /* inherit: hereda la misma propiedad del padre */
+    block-size: inherit;
+    border-radius: inherit;
+    background: var(--white);
+    inline-size: 20%;
+    position: relative;
+}
+
+.slider:hover .slider-progress{
+    background: var(--primary);
+}
+
+.slider:hover .slider-button{
+    display: block;
+}
+
+.slider-button{
+    background: var(--white);
+    padding: 0;
+    border: 0;
+
+    /* Con el porcentaje hacemos que el hijo sea dependiente del tamaño del padre */
+    block-size: 200%;
+    /* Para el ancho se uso esta propiedad, si ya se tiene un alto. Se le esta diciendo que sea cuadrado */
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    /* Todos los porcentajes se guian por el padre */
+
+    /* Translate hace referencia a el mismo. Se mueve un 50% de su tamaño en el eje x y el eje y */
+    transform: translate(-50%, -50%);
+    display: none;
+}
