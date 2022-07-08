@@ -9,11 +9,12 @@
 @import '../css/playlist-a.css';
 @import '../css/playlist-b.css';
 @import '../css/playlist-list.css';
-
+@import '../css/search.css';
 
 
 
 :root { 
+  font-size: 16px;
   --primary: #00b050; 
   --white: #ffffff; 
   --gray10: #b3b3b3; 
@@ -30,4 +31,3 @@
   --button: bold 0.875rem/1rem var(--basefontFamily); 
   --smallFont: normal 0.75rem/normal var(--basefontFamily); 
 }
-
