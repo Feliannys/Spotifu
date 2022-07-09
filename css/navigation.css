@@ -1,8 +1,8 @@
-.navigation{
+.navegation{
     flex-shrink: 0;
 }
 
-.navigation button{
+.navegation button{
     background: var(--gray60);
     color: var(--gray10);
     inline-size: 1.875rem;
@@ -12,7 +12,7 @@
     cursor: pointer;
 }
 
-.navigation button:disabled {
+.navegation button:disabled {
     opacity: .5;
     cursor: not-allowed;
 }
