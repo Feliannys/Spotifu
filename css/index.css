@@ -7,7 +7,8 @@
 @import '../css/ellipsis.css';
 @import '../css/player.css';
 @import '../css/page.css';
-
+@import '../css/layout.css';
+@import '../css/scrollbar.css';
 
 
 :root { 
