@@ -5,7 +5,7 @@
 
 
 ::-webkit-scrollbar-thumb{
-    background: var(--gray60);
+    background: var(--gray30);
 }
 
 ::-webkit-scrollbar-track{
